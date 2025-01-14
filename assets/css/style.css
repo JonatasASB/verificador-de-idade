@@ -1,0 +1,48 @@
+* {
+    
+    outline: none;
+    resize: none;
+    
+}
+body {
+    background-color: rgb(111, 111, 255);
+    font: normal 15pt arial ;
+}
+header, footer {
+    color: #fff;
+    text-align: center;
+}
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 60vw;
+    margin:auto;
+    box-shadow: 2px 2px 10px #ddd;
+    text-align: center;
+}
+div img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+div {
+    margin: 20px 0;
+}
+#res {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    font-style: italic;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
